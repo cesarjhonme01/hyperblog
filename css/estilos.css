@@ -5,7 +5,7 @@ body {
     font-family: Arial;
     font-size: 16px;
     margin: 0;
-    padding: 0
+    padding: 0;
 }
 
 #cabecera {
@@ -14,18 +14,61 @@ body {
     color: #fff;
     font-weight: 700;
     margin: 0;
-    padding: .5em
+    padding: .5em;
 }
 
 #cabecera #logo {
     width: 20px;
-    vertical-align: middle
+    vertical-align: middle;
 }
 
 #cabecera #tagline {
     padding: 0 0 0 1em;
     font-weight: 400;
-    font-size: .8em
+    font-size: .8em;
+}
+
+/* Estilo para la barra de navegación */
+#nav {
+    background-color: #2e3d70;
+    padding: 1em 0;
+}
+
+#nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+#nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo para la sección de introducción */
+#intro {
+    padding: 1em;
+    background-color: #f1f1f1;
+    margin: 1em 0;
+}
+
+#intro h2 {
+    color: #37488b;
+}
+
+#intro p {
+    font-size: 1.1em;
+    color: #333;
 }
 
 #container {
@@ -33,14 +76,14 @@ body {
     padding: 0;
     text-align: left;
     border: 1px solid #ddd;
-    margin: 0 auto
+    margin: 0 auto;
 }
 
 #container h1 {
-    font-size: 20px
+    font-size: 20px;
 }
 
 #post {
     background: #fff;
-    padding: 1em
+    padding: 1em;
 }
